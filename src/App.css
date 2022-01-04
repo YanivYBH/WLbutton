@@ -14,3 +14,7 @@
 .buttonConnectUnconfirmed{
   cursor: pointer;border: 8px solid #4caf50;background: #4caf50;color: #fff;padding: auto;font-size: 20px;margin: 1px;border-radius: 8px;
 }
+
+.walletCard{
+  text-align: -webkit-center;
+}

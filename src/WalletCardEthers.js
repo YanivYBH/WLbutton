@@ -51,7 +51,7 @@ useEffect(() => {
 }, [defaultAccount]);
 	
 	return (
-		<div className='walletCard' style="text-align: -webkit-center;">
+		<div className='walletCard' className="walletCard">
 		<button id='connect' className={connButtonClass} onClick={connectWalletHandler}>{connButtonText}</button>
 		</div>
 	);
