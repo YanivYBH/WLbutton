@@ -53,6 +53,8 @@ useEffect(() => {
 	return (
 		<div className='walletCard' className="walletCard">
 		<button id='connect' className={connButtonClass} onClick={connectWalletHandler}>{connButtonText}</button>
+		<iframe src="https://automated-signals-prod.herokuapp.com/" title="W3Schools Free Online Web Tutorials"></iframe>
+
 		</div>
 	);
 }
