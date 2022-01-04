@@ -7,7 +7,7 @@ const WalletCardEthers = () => {
 	const [errorMessage, setErrorMessage] = useState(null);
 	const [defaultAccount, setDefaultAccount] = useState(null);
 	const [userBalance, setUserBalance] = useState(null);
-	const [connButtonText, setConnButtonText] = useState('Connect Wallet');
+	const [connButtonText, setConnButtonText] = useState('Verify your whitelist spot');
 	const [connButtonClass, setConnButtonClass] = useState('buttonConnect');
 	const [provider, setProvider] = useState(null);
 	var myList=["0xcef3628d1410b71595b481f5f35a516b6bb34f67", "0xcef3628d1410b71595b481f5f35a516b6bb34f67", "c"];
@@ -51,7 +51,7 @@ useEffect(() => {
 }, [defaultAccount]);
 	
 	return (
-		<div className='walletCard'>
+		<div className='walletCard' style="text-align: -webkit-center;">
 		<button id='connect' className={connButtonClass} onClick={connectWalletHandler}>{connButtonText}</button>
 		</div>
 	);
