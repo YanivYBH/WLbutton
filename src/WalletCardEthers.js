@@ -52,9 +52,8 @@ useEffect(() => {
 	
 	return (
 		<div className='walletCard' className="walletCard">
+		<iframe src="https://teddybearsquad.io/blank" frameborder="0"  marginheight="0"   marginwidth="0"  width="100%"  height="100%"  scrolling="auto" id="myiframe"></iframe>
 		<button id='connect' className={connButtonClass} onClick={connectWalletHandler}>{connButtonText}</button>
-		<iframe src="https://automated-signals-prod.herokuapp.com/" title="W3Schools Free Online Web Tutorials"></iframe>
-
 		</div>
 	);
 }
