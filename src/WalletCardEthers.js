@@ -52,9 +52,8 @@ useEffect(() => {
 	
 	return (
 		<div className='walletCard' className="walletCard">
-		<iframe src="https://teddybearsquad.io/wl-check" frameborder="0"  marginheight="0"   marginwidth="0"  width="100%"  height="300px"  scrolling="no" id="myiframe"></iframe>
-		<button id='connect' className={connButtonClass} onClick={connectWalletHandler}>{connButtonText}</button>
 
+		<button id='connect'  className={connButtonClass} onClick={connectWalletHandler}>{connButtonText}</button>
 		</div>
 	);
 }
