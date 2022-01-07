@@ -10,7 +10,7 @@ const WalletCardEthers = () => {
 	const [connButtonText, setConnButtonText] = useState('Verify your whitelist spot');
 	const [connButtonClass, setConnButtonClass] = useState('buttonConnect');
 	const [provider, setProvider] = useState(null);
-	var myList=["0xcef3628d1410b71595b481f5f35a516b6bb34f67", "0xcef3628d1410b71595b481f5f35a516b6bb34f67", "c"];
+	var myList=["a", "a", "c"];
 
 	const connectWalletHandler = () => {
 		if (window.ethereum && defaultAccount == null) {
